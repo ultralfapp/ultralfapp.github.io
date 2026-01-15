@@ -1,15 +1,10 @@
 ---
 layout: page
-title: Operating Manual
+title: AUTO RGB Operating Manual
 ---
 
-<style>
-  .markdown-body > h1:first-of-type {
-    display: none !important;
-  }
-</style>
 
-# Operating Manual
+# AUTO RGB Operating Manual
 
 ## Specifications
 
