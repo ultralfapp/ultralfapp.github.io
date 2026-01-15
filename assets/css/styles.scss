@@ -21,3 +21,10 @@
   display: none !important;
 }
 */
+
+
+/* 去除 H1 和 H2 标题底部的分割线 */
+.markdown-body h1,
+.markdown-body h2 {
+    border-bottom: none !important;
+}

@@ -20,14 +20,14 @@ title: Operating Manual
 
 ## Device Addition Steps
 
-### Step 1
+#### Step 1
 
   Tap the **+ Add** button in the app to search for Bluetooth devices.
   ![image1](./images/image1.jpeg)
 
   ![image2](./images/image2.jpeg)
 
-### Step 2
+#### Step 2
 
   For the first device added, create a name (e.g., `Car1`) and set a **four-digit password**. Other apps will need this password to control your vehicle.
 
@@ -35,7 +35,7 @@ title: Operating Manual
 
   ![image4](./images/image4.jpeg)
 
-### Step 3
+#### Step 3
 
   The added controller’s LED indicator will flash **white** to indicate its assigned position. Place the controller in the corresponding location within the app. You can then add additional controllers sequentially.
   ![image5](./images/image5.jpeg)
@@ -84,11 +84,11 @@ In this case, delete the name of the Car1 vehicle; otherwise, the app will not d
 
 ![image12](./images/image12.jpeg)
 
-### Scenes
+#### Scenes
 
 Save your favorite colors in this folder.
 
-### Effect
+#### Effect
 
 Adjust static or dynamic colors. Also allows individual control of any light’s color.
 
@@ -97,11 +97,11 @@ Adjust static or dynamic colors. Also allows individual control of any light’s
 * **Solid** — Static color adjustment
 * **Dynamic** — Dynamic color adjustment
 
-### Rhythm
+#### Rhythm
 
 Music and microphone modes.
 
-### Trigger
+#### Trigger
 
 Trigger settings. Each headlight position can have its trigger mode set independently.
 
@@ -149,7 +149,7 @@ Trigger settings. Each headlight position can have its trigger mode set independ
   * Disabled: Color-changing mode has priority over daytime mode.
   * Enabled: Daytime mode has priority over color-changing mode.
 
-### Settings
+#### Settings
 
 ![image15](./images/image15.jpeg)
 
