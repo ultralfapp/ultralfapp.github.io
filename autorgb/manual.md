@@ -54,7 +54,7 @@ title: Operating Manual
 
 ## Device Deletion Steps
 
-### Step 1
+#### Step 1
 Tap **Settings** on the main interface, then tap **Reset and Delete** to remove all devices.
 
 To delete a single device:
@@ -67,7 +67,7 @@ To delete a single device:
 
 ![image8](./images/image8.jpeg)
 
-### Step 2
+#### Step 2
 If the app repeatedly fails to connect to the controller, the **main controller may be damaged**.
 In this case, delete the name of the Car1 vehicle; otherwise, the app will not detect any devices.
 
