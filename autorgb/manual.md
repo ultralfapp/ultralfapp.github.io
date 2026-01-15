@@ -5,9 +5,8 @@ title: Operating Manual
 
 <!-- 加入这一段 -->
 <style>
-  .site-title {
-    display: none;
-    /* 或者使用 visibility: hidden; 它可以隐藏文字但保留占位，防止排版错乱 */
+  .markdown-body > h1:first-of-type {
+    display: none !important;
   }
 </style>
 
