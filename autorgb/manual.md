@@ -33,6 +33,7 @@ title: Operating Manual
 ### Step 2
 
   For the first device added, create a name (e.g., `Car1`) and set a **four-digit password**. Other apps will need this password to control your vehicle.
+
   ![image3](./images/image3.jpeg)
 
   ![image4](./images/image4.jpeg)
