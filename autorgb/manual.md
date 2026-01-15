@@ -3,7 +3,6 @@ layout: page
 title: Operating Manual
 ---
 
-<!-- 加入这一段 -->
 <style>
   .markdown-body > h1:first-of-type {
     display: none !important;
@@ -18,7 +17,6 @@ title: Operating Manual
 * **Trigger Types:** Start, Reverse, Turn, Brake, Daytime Running
 * **Switch Modes:** APP, Remote Control, START Signal Line (Enabled), Button On
 
----
 
 ## Device Addition Steps
 
@@ -53,7 +51,6 @@ title: Operating Manual
 3. The **first added device** becomes the **primary unit**. If the primary device fails, other devices will become **undetectable**.In this case, delete `Car1` and perform a new search to add it again.
 
 
----
 
 ## Device Deletion Steps
 
@@ -78,7 +75,8 @@ In this case, delete the name of the Car1 vehicle; otherwise, the app will not d
 
 ![image10](./images/image10.jpeg)
 
----
+
+
 
 ## Feature Overview
 
@@ -185,7 +183,8 @@ Trigger settings. Each headlight position can have its trigger mode set independ
 
   Delete all devices and restore factory settings.
 
----
+
+
 
 ## External Connection Cable Overview
 
