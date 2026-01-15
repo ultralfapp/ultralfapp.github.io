@@ -1,6 +1,10 @@
-# AUTO RGB Operating Manual
+<style>
+  .site-title { display: none; }
+</style>
 
-## Operating Specifications
+# Operating Manual
+
+## Specifications
 
 * **Operating Voltage:** 5V–24V
 * **Trigger Types:** Start, Reverse, Turn, Brake, Daytime Running
@@ -12,6 +16,7 @@
 
 **Step 1**
 Tap the **+ Add** button in the app to search for Bluetooth devices.
+![image1](./images/image1.jpeg)
 
 **Step 2**
 For the first device added, create a name (e.g., `Car1`) and set a **four-digit password**. Other apps will need this password to control your vehicle.
