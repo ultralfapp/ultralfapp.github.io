@@ -1,5 +1,14 @@
+---
+layout: page
+title: Operating Manual
+---
+
+<!-- 加入这一段 -->
 <style>
-  .site-title { display: none; }
+  .site-title {
+    display: none;
+    /* 或者使用 visibility: hidden; 它可以隐藏文字但保留占位，防止排版错乱 */
+  }
 </style>
 
 # Operating Manual
@@ -14,32 +23,41 @@
 
 ## Device Addition Steps
 
-**Step 1**
-Tap the **+ Add** button in the app to search for Bluetooth devices.
-![image1](./images/image1.jpeg)
+### Step 1
 
-**Step 2**
-For the first device added, create a name (e.g., `Car1`) and set a **four-digit password**. Other apps will need this password to control your vehicle.
+  Tap the **+ Add** button in the app to search for Bluetooth devices.
+  ![image1](./images/image1.jpeg)
 
-**Step 3**
-The added controller’s LED indicator will flash **white** to indicate its assigned position. Place the controller in the corresponding location within the app. You can then add additional controllers sequentially.
+  ![image2](./images/image2.jpeg)
 
-### Important Notes
+### Step 2
 
-* Only controllers of the **same type** can be added to the **left and right headlight** positions.
+  For the first device added, create a name (e.g., `Car1`) and set a **four-digit password**. Other apps will need this password to control your vehicle.
+  ![image3](./images/image3.jpeg)
 
-  * Example: If the left headlight uses **MS001A**, the right headlight must also use **MS001A**.
-* Ensure all LEDs for the same vehicle location are **identical**.
-* The **first added device** becomes the **primary unit**.
-* If the primary device fails, other devices will become **undetectable**.
+  ![image4](./images/image4.jpeg)
 
-  * In this case, delete `Car1` and perform a new search to add it again.
+### Step 3
+
+  The added controller’s LED indicator will flash **white** to indicate its assigned position. Place the controller in the corresponding location within the app. You can then add additional controllers sequentially.
+  ![image5](./images/image5.jpeg)
+
+  ![image6](./images/image6.jpeg)
+
+**Important Notes**
+
+1. Only controllers of the **same type** can be added to the **left and right headlight** positions.
+
+   Example: If the left headlight uses **MS001A**, the right headlight must also use **MS001A**.
+2. Ensure all LEDs for the same vehicle location are **identical**.
+3. The **first added device** becomes the **primary unit**. If the primary device fails, other devices will become **undetectable**.In this case, delete `Car1` and perform a new search to add it again.
+
 
 ---
 
 ## Device Deletion Steps
 
-**Step 1**
+### Step 1
 Tap **Settings** on the main interface, then tap **Reset and Delete** to remove all devices.
 
 To delete a single device:
@@ -48,14 +66,25 @@ To delete a single device:
 2. Select the device location
 3. Tap **Delete**
 
-**Step 2**
-If the app repeatedly fails to connect to the controller, the **main controller may be damaged**.
+![image7](./images/image7.jpeg)
 
-* Delete the `Car1` vehicle name; otherwise, the app will not detect any devices.
+![image8](./images/image8.jpeg)
+
+### Step 2
+If the app repeatedly fails to connect to the controller, the **main controller may be damaged**.
+In this case, delete the name of the Car1 vehicle; otherwise, the app will not detect any devices.
+
+![image9](./images/image9.jpeg)
+
+![image10](./images/image10.jpeg)
 
 ---
 
 ## Feature Overview
+
+![image11](./images/image11.jpeg)
+
+![image12](./images/image12.jpeg)
 
 ### Scenes
 
@@ -78,10 +107,16 @@ Music and microphone modes.
 
 Trigger settings. Each headlight position can have its trigger mode set independently.
 
-* **Enabled**
+![image13](./images/image13.jpeg)
+
+![image14](./images/image14.jpeg)
+
++ **Enabled**
+
   Disabling this function will stop the trigger signal from working.
 
-* **LED Segments**
++ **LED Segments**
+
   Configure three groups totaling **150 LEDs**.
 
   Example: `1–10`, `90–100`, `110–150`
@@ -90,65 +125,81 @@ Trigger settings. Each headlight position can have its trigger mode set independ
   * Unassigned LEDs will not trigger.
   * This setting is **not available** on **MS001B** and **MS002B** controllers.
 
-* **Mode**
++ **Mode**
+
   Adjust the trigger mode.
 
-* **Color**
++ **Color**
+
   Configure the LED color during triggering.
 
-* **Speed**
++ **Speed**
+
   Adjust the speed of the trigger mode.
 
-* **Reserved for Signals**
++ **Reserved for Signals**
+
   Locks the LED segment color setting when no trigger signal is present.
 
-* **Power Off After Triggering**
++ **Power Off After Triggering**
 
   * Disabled: Controller remains active after triggering ends.
   * Enabled: Controller powers off after triggering ends, unless another trigger signal activates it.
 
-* **Always On Display**
++ **Always On Display**
 
   * Disabled: Color-changing mode has priority over daytime mode.
   * Enabled: Daytime mode has priority over color-changing mode.
 
----
+### Settings
 
-## Settings
+![image15](./images/image15.jpeg)
 
-* **Car1**
+![image16](./images/image16.jpeg)
+
++ **Car1**
+
   Rename the vehicle and view the number of bound devices.
 
-* **Controllers**
++ **Controllers**
+
   Upgrade or remove added controllers.
 
-* **LED Count**
++ **LED Count**
+
   Set the number of LEDs on the controller.
 
-* **RGB Order**
++ **RGB Order**
+
   Calibrate LED color order.
 
-* **Password**
++ **Password**
+
   Modify or disable the login password.
 
-* **Manual**
++ **Manual**
+
   Access help and instructions.
 
-* **Reset and Delete**
++ **Reset and Delete**
+
   Delete all devices and restore factory settings.
 
 ---
 
 ## External Connection Cable Overview
 
-Powered by a **vehicle battery**.
+1. Powered by a **car battery**
 
-### Connection Scenarios
+   Schematic diagram showing one controller connected to one set of lights.
+   ![image17](./images/image17.jpeg)
 
-* One controller connected to **one set of lights**
-* One controller connected to **left and right lighting sets**
-* Trigger signal power supply with one controller connected to a **single lighting set**
+2. Vehicle battery power supply
 
----
+   Schematic diagram showing one controller connected to left and right lighting set.
+   ![image18](./images/image18.jpeg)
 
-*This document is formatted in Markdown and can be directly published using GitHub Pages.*
+3. Trigger signal power supply.
+
+   Schematic diagram of a controller connected to a set of light.
+   ![image19](./images/image19.jpeg)
