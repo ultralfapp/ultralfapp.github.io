@@ -173,6 +173,20 @@
             max-width: 400px;
         }
 
+        /* 隐藏工具栏模式下的样式调整 */
+        body.hide-toolbar .toolbar {
+            display: none;
+        }
+
+        body.hide-toolbar .pdf-container {
+            margin-top: 0;
+        }
+
+        body.hide-toolbar .loading,
+        body.hide-toolbar .error {
+            height: 100vh;
+        }
+
         /* 响应式 */
         @media (max-width: 600px) {
             .toolbar {
@@ -409,6 +423,14 @@
 
         // 初始化
         async function init() {
+            const params = new URLSearchParams(window.location.search);
+            const toolbarParam = params.get('toolbar');
+            
+            // 如果 toolbar=0 或 toolbar=false，隐藏工具栏
+            if (toolbarParam === '0' || toolbarParam === 'false') {
+                document.body.classList.add('hide-toolbar');
+            }
+
             const pdfPath = getPdfPath();
             
             if (!pdfPath) {
